@@ -1,0 +1,16 @@
+{{> header}}
+
+<section class="invoice">
+	<header class="invoice-header">
+		<h1 class="invoice-title">{{invoice.title}}</h1>
+		<p class="invoice-meta">By  <strong>{{invoice.customer.firstname}}</strong>, on <strong>{{invoice.created}}</strong></p>
+	</header>
+
+	<div class="invoice-description">
+		{{invoice.headline}}
+
+		{{invoice.content}}
+	</div>
+</section>
+
+{{> footer}}

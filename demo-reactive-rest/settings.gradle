@@ -1,0 +1,4 @@
+rootProject.name = 'demo-reactive-rest'
+
+include 'demo-reactive-rest-client'
+include 'demo-reactive-rest-server'

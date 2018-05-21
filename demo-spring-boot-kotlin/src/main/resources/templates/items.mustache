@@ -1,0 +1,17 @@
+{{> header}}
+
+<div class="invoices">
+	{{#invoices}}
+		<section>
+			<header class="invoice-header">
+				<h2 class="invoice-title"><a href="/invoice/{{id}}">{{title}}</a></h2>
+				<div class="invoice-meta">By  <strong>{{customer.firstname}}</strong>, on <strong>{{created}}</strong></div>
+			</header>
+			<div class="invoice-headline">
+				{{headline}}
+			</div>
+		</section>
+	{{/invoices}}
+</div>
+
+{{> footer}}

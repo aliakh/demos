@@ -1,0 +1,7 @@
+rootProject.name = 'demos'
+
+include 'demo-reactive-rest'
+include 'demo-reactive-streams'
+include 'demo-jax-rs-reactive'
+include 'demo-spring-boot-kotlin'
+include 'demo-vertx-spring'
